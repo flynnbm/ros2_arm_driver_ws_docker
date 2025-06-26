@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  arm_driver_ws:
+    image: flynnbm/arm_driver_ws:jazzy
+    container_name: arm_driver_ws
+    network_mode: host
+    privileged: true
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - XDG_RUNTIME_DIR=/tmp/runtime-root
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    stdin_open: true
+    tty: true
