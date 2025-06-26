@@ -25,7 +25,7 @@ Contains:
 
 ## Setup Instructions
 
-### 1. Installing Docker & Compose on the Pi
+### 1. Installing Docker & Compose on your machine
 
 ```bash
 sudo apt update
