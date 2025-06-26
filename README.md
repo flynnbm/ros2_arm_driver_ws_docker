@@ -1,4 +1,4 @@
-# ROS 2 Jazzy + RealSense Docker Setup for Raspberry Pi 5
+# ROS 2 Jazzy Arm Simulation Docker Setup
 
 This repository provides a setup for running a Gazebo simulated Franka Emika Panda with ROS 2 Jazzy inside a Docker container. It is built for plug-and-play ROS 2 robot simulation, more robot embodiments will be added in future updates.
 
