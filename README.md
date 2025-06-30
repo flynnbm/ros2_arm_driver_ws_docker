@@ -32,18 +32,6 @@ sudo apt update
 sudo apt install docker.io docker-compose
 ```
 
-Run `docker compose` with the following command (making sure to add the -d argument so that your terminal isn't held up):
-
-```bash
-docker compose up -d
-```
-
-Enter the container with the following command, this can be done with multiple terminals if necessary:
-
-```bash
-docker exec -it arm_driver_ws bash
-```
-
 ### 2. Clone the repository
 
 ```bash
