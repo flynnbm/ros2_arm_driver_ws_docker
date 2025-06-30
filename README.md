@@ -66,7 +66,7 @@ docker exec -it arm_driver_ws bash
 ## 4.1 (Optional alternative: no docker compose)
 If you do not wish to use docker compose but still don't want to build the image yourself:
 
-<pre>```bash
+<pre>
 # Enable X11 access from Docker containers
 xhost +local:docker
 
@@ -77,12 +77,12 @@ docker run -it \
   --env="QT_X11_NO_MITSHM=1" \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
   flynnbm/arm_driver_ws:jazzy
-```</pre>
+</pre>
 
 ## 4.2  (Optional alternative: local image build)
 Lastly, if you wish to build the docker image yourself:
 
-<pre>```bash
+<pre>
 # Build the image
 docker build -t arm_driver_ws:jazzy .
 
@@ -96,7 +96,7 @@ docker run -it \
   --env="QT_X11_NO_MITSHM=1" \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
   arm_driver_ws:jazzy
-```</pre>
+</pre>
 
 ### 5. Launch the Simulation nodes
 
