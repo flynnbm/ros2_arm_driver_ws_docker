@@ -39,7 +39,7 @@ git clone https://github.com/flynnbm/ros2_arm_driver_ws_docker.git
 cd arm_driver_ws_docker
 ```
 
-### 4. Start the container
+### 3. Start the container
 
 ```bash
 docker-compose up -d
@@ -51,7 +51,7 @@ Then enter the container:
 docker exec -it arm_driver_ws bash
 ```
 
-### 4.1 (Optional alternative: no docker compose)
+#### 3.1 (Optional alternative: no docker compose)
 If you do not wish to use docker compose but still don't want to build the image yourself:
 
 <pre>
@@ -67,7 +67,7 @@ docker run -it \
   flynnbm/arm_driver_ws:jazzy
 </pre>
 
-### 4.2  (Optional alternative: local image build)
+#### 3.2  (Optional alternative: local image build)
 Lastly, if you wish to build the docker image yourself:
 
 <pre>
@@ -86,7 +86,7 @@ docker run -it \
   arm_driver_ws:jazzy
 </pre>
 
-### 5. Launch the Simulation nodes
+### 4. Launch the Simulation nodes
 
 Inside the container:
 
