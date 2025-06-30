@@ -51,7 +51,7 @@ Then enter the container:
 docker exec -it arm_driver_ws bash
 ```
 
-## 4.1 (Optional alternative: no docker compose)
+### 4.1 (Optional alternative: no docker compose)
 If you do not wish to use docker compose but still don't want to build the image yourself:
 
 <pre>
@@ -67,7 +67,7 @@ docker run -it \
   flynnbm/arm_driver_ws:jazzy
 </pre>
 
-## 4.2  (Optional alternative: local image build)
+### 4.2  (Optional alternative: local image build)
 Lastly, if you wish to build the docker image yourself:
 
 <pre>
