@@ -36,7 +36,7 @@ sudo apt install docker.io docker-compose
 
 ```bash
 git clone https://github.com/flynnbm/ros2_arm_driver_ws_docker.git
-cd arm_driver_ws_docker
+cd ros2_arm_driver_ws_docker
 ```
 
 ### 3. Start the container
