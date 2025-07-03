@@ -7,7 +7,7 @@ This repository provides a setup for running a Gazebo simulated Franka Emika Pan
 Pre-built image is hosted on Docker Hub:
 
 ```bash
-docker pull flynnbm/arm_driver_ws
+docker pull flynnbm/arm_driver_ws:jazzy
 ```
 
 Contains:
@@ -118,7 +118,7 @@ To remove just this image:
 ```bash
 docker stop arm_driver_ws
 docker rm arm_driver_ws
-docker rmi flynnbm/arm_driver_ws:latest
+docker rmi flynnbm/arm_driver_ws:jazzy
 ```
 
 ## Future Improvements
